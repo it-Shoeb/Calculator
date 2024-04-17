@@ -35,8 +35,9 @@ body {
 .header{
   padding-block: .5rem;
 }
-
+  
 .toggle-container{
+  transition: all .5s;
   position: relative;
   background-color: white;
   width: 50px;
@@ -50,10 +51,14 @@ body {
 }
 
 .toggle-container img{
+  filter: var(--dark)     ;
+}
+.toggle-container img{
   width: 40%;
 }
 
 .toggle{
+  transition: all .5s;
   position: absolute;
   top: 0;
   left: 0;
